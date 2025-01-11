@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+    position: relative;
+    width: 575px;
+    height: 385px;
+
+    background: #1B244A;
+
+}
+
+/* empty-state */
+
+
+/* board-title-home */
+h3 {
+    display: flex;
+    width: 149px;
+    height: 36px;
+    left: 85px;
+    top: 68px;
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    /* identical to box height, or 90% */
+    text-align: center;
+    justify-content: center; 
+
+    color: #EEEEEE;
+    
+    }
+
+/* home-score */
+
+.score {
+display: flex;
+width: 155px;
+height: 120px;
+left: 82px;
+top: 125px;
+background-color: #080001;
+margin-bottom: 20px;
+}
+
+/* home-score */
+/* home-points-text */
+#home-score {
+    width: 117px;
+    height: 120px;
+    left: 100px;
+    top: 125px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: #F94F6D;
+
+}
+
+#guest-score {
+    width: 117px;
+    height: 120px;
+    left: 100px;
+    top: 125px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: #F94F6D;
+
+}
+/* add-points-btns-home */
+
+.btn-grp {
+    display: flex;
+    width: 155px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+    justify-content: center; 
+    gap: 10px;
+
+}
+/* plus-one-point */
+.btn {
+    text-align: center;
+    color: #9AABD8;
+    /* Rectangle 4 */
+    box-sizing: border-box;
+    width: 45px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background-color: transparent;
+    
+}
+
+/* add-points-btns-home */
+
+/* home-points-text */
+
